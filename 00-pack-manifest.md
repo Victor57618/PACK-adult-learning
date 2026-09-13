@@ -80,7 +80,7 @@ Pack отвечает на вопросы:
 | Work products | 10 | draft |
 | Failure modes | 10 | draft |
 | Characteristics | 8 | draft |
-| SoTA annotations/source groups | 29 | draft |
+| SoTA annotations/source groups | 30 | draft |
 | Maps | 1 | draft |
 ## Entity index
 | ID | Name | Kind | Summary | Status |
@@ -117,6 +117,45 @@ Pack отвечает на вопросы:
 
 | Date | Change | Author |
 |---|---|---|
+| 2026-09-13 | Clarified exploratory vs alternative-mastery phases in AL.P.017, AL.M.009 and AL.WP.009; repeated all 10 synthetic boundary probes with explicit resolution, retaining AL.P.020 prerequisites, consent, authority and risk controls; no maturity increase | Codex |
+| 2026-09-13 | Recorded 10 internal synthetic boundary probes for AL.SOTA.030: 9 explicitly resolved, 1 early-entry ambiguity in AL.P.017 reported for owner decision; no entity fix or maturity increase | Codex |
+| 2026-09-13 | Integrated accepted STH.KGL.CLAIM.001–027 into AL.P.017, AL.P.020, AL.P.022, AL.M.009 and AL.WP.009; added AL.SOTA.030 annotation and RP traceability; existing roles and products sufficient, no maturity increase, corpus reading remains open | Codex |
+| 2026-09-13 | Owner accepted STH.KGL.CLAIM.027 as current-practice tied to the medical college case; all 27 drafted claims accepted, integration not started, corpus saturation not asserted | Codex |
+| 2026-09-13 | Owner accepted STH.KGL.CLAIM.026 as current-practice tied to the pharmaceutical team program: support handover to the team; 26 accepted, 1 pending, integration not started | Codex |
+| 2026-09-13 | Owner accepted STH.KGL.CLAIM.025 as current-practice for Kegan–Lahey method: personal maps around shared goals distinguished from collective immunity maps; 25 accepted, 2 pending, integration not started | Codex |
+| 2026-09-13 | Owner accepted STH.KGL.CLAIM.024 as current-practice for collective Kegan–Lahey method: assumption formulation distinguished from truth testing; 24 accepted, 3 pending, integration not started | Codex |
+| 2026-09-13 | Owner accepted STH.KGL.CLAIM.023 as current-practice for collective Kegan–Lahey method: shared behavior, fears and protective commitments; 23 accepted, 4 pending, integration not started | Codex |
+| 2026-09-13 | Owner accepted STH.KGL.CLAIM.022 as current-practice for collective Kegan–Lahey method: joint maps distinguished from observer conjectures, group sizes retained as author guidance; 22 accepted, 5 pending, integration not started | Codex |
+| 2026-09-13 | Owner accepted STH.KGL.CLAIM.021 as current-practice for collective Kegan–Lahey method: willingness to examine own contribution and author-stated conflict conditions; 21 accepted, 6 pending, integration not started | Codex |
+| 2026-09-13 | Owner accepted STH.KGL.CLAIM.020 as current-practice for Kegan–Lahey method: self-guided work allowed without asserting equal effectiveness of support options; 20 accepted, 7 pending, integration not started | Codex |
+| 2026-09-13 | Owner accepted STH.KGL.CLAIM.019 as current-practice tied to Cathy case: meaning change may preserve wording; 19 accepted, 8 pending, integration not started | Codex |
+| 2026-09-13 | Owner accepted STH.KGL.CLAIM.018 as current-practice for Kegan–Lahey method: repeated observer feedback distinguished from self-report and developmental stage claims; 18 accepted, 9 pending, integration not started | Codex |
+| 2026-09-13 | Owner accepted STH.KGL.CLAIM.017 as current-practice for Kegan–Lahey method: recognize relapse and restore new action; 17 accepted, 10 pending, integration not started | Codex |
+| 2026-09-13 | Owner accepted STH.KGL.CLAIM.016 as current-practice for Kegan–Lahey method: deliberate new action distinguished from embedded action without constant preparation; 16 accepted, 11 pending, integration not started | Codex |
+| 2026-09-13 | Owner accepted STH.KGL.CLAIM.015 as current-practice for Kegan–Lahey method: goal progress and sustained new understanding jointly inform completion; 15 accepted, 12 pending, integration not started | Codex |
+| 2026-09-13 | Owner accepted STH.KGL.CLAIM.014 as current-practice for Kegan–Lahey method: repeated tests across contexts without a fixed test count; 14 accepted, 13 pending, integration not started | Codex |
+| 2026-09-13 | Owner accepted STH.KGL.CLAIM.013 as current-practice for Kegan–Lahey method: explore conditions of assumption validity rather than require total rejection; 13 accepted, 14 pending, integration not started | Codex |
+| 2026-09-13 | Owner accepted STH.KGL.CLAIM.012 as current-practice for Kegan–Lahey method: alternative interpretations inform the next test; 12 accepted, 15 pending, integration not started | Codex |
+| 2026-09-13 | Owner accepted STH.KGL.CLAIM.011 as current-practice for Kegan–Lahey method: inconclusive data collection distinguished from confirming or refuting the assumption; 11 accepted, 16 pending, integration not started | Codex |
+| 2026-09-13 | Owner accepted STH.KGL.CLAIM.010 as current-practice for Kegan–Lahey method: observations, feelings and interpretations distinguished in test review; 10 accepted, 17 pending, integration not started | Codex |
+| 2026-09-13 | Owner accepted STH.KGL.CLAIM.009 as current-practice for Kegan–Lahey method: action, observations and support in test planning; 9 accepted, 18 pending, integration not started | Codex |
+| 2026-09-13 | Owner accepted STH.KGL.CLAIM.008 as current-practice for Kegan–Lahey method: small, safe and feasible tests with context-specific risk assessment; 8 accepted, 19 pending, integration not started | Codex |
+| 2026-09-13 | Owner accepted STH.KGL.CLAIM.007 as current-practice for Kegan–Lahey method: identify evidence that could challenge the assumption before testing; 7 accepted, 20 pending, integration not started | Codex |
+| 2026-09-13 | Owner accepted STH.KGL.CLAIM.006 as current-practice for Kegan–Lahey method; testing one link distinguished from refuting the entire catastrophic expectation chain; 6 accepted, 21 pending, integration not started | Codex |
+| 2026-09-13 | Owner accepted STH.KGL.CLAIM.005 as current-practice for Kegan–Lahey method; assumption history and observations distinguished from action testing; 5 accepted, 22 pending, integration not started | Codex |
+| 2026-09-13 | Owner accepted STH.KGL.CLAIM.004 as current-practice for Kegan–Lahey method; goal progress signs distinguished from assumption testing; 4 accepted, 23 pending, integration not started | Codex |
+| 2026-09-13 | Owner accepted STH.KGL.CLAIM.003 as current-practice for Kegan–Lahey method: preparation, tests and consolidation with selectable exercises; 3 accepted, 24 pending, integration not started | Codex |
+| 2026-09-13 | Owner accepted STH.KGL.CLAIM.002 as current-practice for Kegan–Lahey method; participant goal significance distinguished from systemic justification; 2 accepted, 25 pending, integration not started | Codex |
+| 2026-09-13 | Owner accepted STH.KGL.CLAIM.001 as current-practice without mandatory duration; 1 accepted, 26 pending in AL.SOTA.030; evidence profile unchanged, integration not started | Codex |
+| 2026-09-13 | Formulated 27 pending STH.KGL.CLAIM.001–027 in AL.SOTA.030 RP section 16 under owner-approved series; author positions, evidence and proposed Pack use separated; no numerical cap, saturation claim, acceptance or integration; 22 records unchanged | Codex |
+| 2026-09-13 | Completed chapters 6 and 10 text reading of local 08 in AL.SOTA.030; documented individual test design, execution, alternative interpretation, repetition and embedding in RP section 15; founder-allowed self-guided practice distinguished from Zeitler recommendation; 22 records unchanged, no claims accepted or integrated | Codex |
+| 2026-09-13 | Completed chapter 4 text reading of local 08 in AL.SOTA.030; recorded distinct diagnostic stories, planned projects, ambulatory observations and medical-college pilots with institutional embedding in RP section 14; original article 19 still unread in full; 22 records unchanged, no claims accepted or integrated | Codex |
+| 2026-09-13 | Recorded full Russian translation of local source 08 in AL.SOTA.030: chapters 7 and 11 text read completely, chapter 4 started; collective procedure, corporate follow-up and peer embedding documented in RP section 13; 22 records unchanged; no claims accepted or integrated | Codex |
+| 2026-09-13 | Extended AL.SOTA.030 to 22 local records with corporate reading notes: Bowe abstract, Reams field case, Reams coaching-program study and current Next Jump descriptions; distinguished preparation, individual coaching and collective change; source discrepancy recorded without correction; no claims accepted or integrated | Codex |
+| 2026-09-13 | Recorded additional AL.SOTA.030 reading in RP section 12: critical articles 17–18, version and setting distinctions, publisher-preview access limits for team chapters; 22 records unchanged, full team protocol still pending; no claims accepted or integrated | Codex |
+| 2026-09-13 | Recorded AL.SOTA.030 detailed-reading first stage: selected ITC procedures and cases, partial Zeitler response and complete main SSIR book excerpt; exact access limits, 18 records unchanged; no claims accepted or integrated | Codex |
+| 2026-09-13 | Recorded AL.SOTA.030 first-pass search across 12 streams with 18 local source records, explicit reading limits, team and organizational practice pointers, empirical abstract and ethical debate; deeper reading pending; no accepted claims or pattern changes | Codex |
+| 2026-09-13 | Opened owner-approved AL.SOTA.030 on Kegan and Lahey: assumption testing, developmental practice, team applications and deliberately developmental organizations; linked prior partial coverage without recounting evidence; no claims accepted or patterns changed | Codex |
 | 2026-09-13 | Integrated accepted local 036–038 of AL.SOTA.003 and owner-authorized evaluation procedures from RP §19 into AL.P.020, AL.P.022 and AL.WP.008; linked local sources 33–34 in source register and map; separated author practice from Pack synthesis; no new entities or rating increase; 001–030 remain outside this integration | Codex |
 | 2026-09-13 | Integrated accepted local 031 of AL.SOTA.003 and McGuire/CCL procedural evidence into AL.P.017, AL.P.020 and AL.P.022: working agreements, real trials between meetings, difficulty review, repetition and owner-led embedding; source thought separated from Pack synthesis; no new pattern or maturity increase; other accepted claims await integration | Codex |
 | 2026-09-12 | Formulated 19 source-close candidates for AL.SOTA.003 with local numbers in RP section 11; source meaning, Pack interpretation and proposed checks separated; sequential review pending from 001; no acceptance or integration | Codex |
