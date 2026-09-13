@@ -19,7 +19,7 @@ pilot_evaluation_floor: 3
 spf_template_checked: 2026-07-28
 status: draft
 created: 2026-07-28
-last_updated: 2026-09-12
+last_updated: 2026-09-13
 maintainers:
   - name: Workspace owner
     contact: local
@@ -117,6 +117,12 @@ Pack отвечает на вопросы:
 
 | Date | Change | Author |
 |---|---|---|
+| 2026-09-13 | Integrated accepted local 036–038 of AL.SOTA.003 and owner-authorized evaluation procedures from RP §19 into AL.P.020, AL.P.022 and AL.WP.008; linked local sources 33–34 in source register and map; separated author practice from Pack synthesis; no new entities or rating increase; 001–030 remain outside this integration | Codex |
+| 2026-09-13 | Integrated accepted local 031 of AL.SOTA.003 and McGuire/CCL procedural evidence into AL.P.017, AL.P.020 and AL.P.022: working agreements, real trials between meetings, difficulty review, repetition and owner-led embedding; source thought separated from Pack synthesis; no new pattern or maturity increase; other accepted claims await integration | Codex |
+| 2026-09-12 | Formulated 19 source-close candidates for AL.SOTA.003 with local numbers in RP section 11; source meaning, Pack interpretation and proposed checks separated; sequential review pending from 001; no acceptance or integration | Codex |
+| 2026-09-12 | Recorded additional procedural reading for AL.SOTA.003: assignment-plan template, experience-system implementation, task support and experience follow-up; 13 of 17 records have substantive excerpts or abstract, 4 bibliography-only; no claims accepted or integrated | Codex |
+| 2026-09-12 | Recorded first source-search pass for AL.SOTA.003 across 12 streams: 17 bibliographic records, 12 with substantive text or abstract and 5 bibliography-only; procedural and foundation-change gaps remain; no claims accepted or integrated | Codex |
+| 2026-09-12 | Reopened AL.SOTA.003 for practical work-based learning methods, individual and collective learning and changes of foundations; owner-approved passport and 12 search streams recorded; cycle count remains 29; no new claims integrated | Codex |
 | 2026-09-12 | Completed post-integration ODI boundary review with 10 new synthetic cases; all resolved using explicit rules; no entity changes required; same-agent analytical review, not independent or empirical validation; candidate/bounded unchanged | Codex |
 | 2026-09-12 | Integrated ODI supplementary claims 035–043 into AL.P.027, AL.M.002, AL.M.009 and AL.WP.009 using existing architecture; 43 accepted claims; pattern remains candidate/bounded; post-integration boundary tests pending | Codex |
 | 2026-09-12 | Owner accepted plain-language STH.ODI.CLAIM.043 as bounded; all 43 claims accepted; supplementary claims 035–043 await integration | Codex |
