@@ -118,6 +118,7 @@ Pack отвечает на вопросы:
 
 | Date | Change | Author |
 |---|---|---|
+| 2026-09-25 | Corrected premature completion claim for STH.DEV.CLAIM.045–060: added claim-by-claim traceability, completed 051/053/055/057/058 in AL.P.028, AL.P.033 and AL.P.034 with a route to existing AL.P.022, and passed 10 targeted synthetic boundary probes; selected set remains unchanged pending reassessment | Codex |
 | 2026-09-25 | Integrated accepted AL.P.028–034 as a routed family of competency-based, activity-based, problem-based, contextual, personal and cultural approaches; added reader and domain-map navigation plus two rounds of ten internal boundary probes; retained the exact 24-pattern selected edition pending E.21 and package reassessment | Codex |
 | 2026-09-24 | Integrated accepted STH.DEV.CLAIM.045–060 from Teslinov seminar slides into the approach-pattern family; source claims, Pack synthesis and bounded status remain separated | Codex |
 | 2026-09-13 | Clarified exploratory vs alternative-mastery phases in AL.P.017, AL.M.009 and AL.WP.009; repeated all 10 synthetic boundary probes with explicit resolution, retaining AL.P.020 prerequisites, consent, authority and risk controls; no maturity increase | Codex |
