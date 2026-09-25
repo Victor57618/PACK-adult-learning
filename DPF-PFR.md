@@ -2,13 +2,13 @@
 
 ## 1. Назначение
 
-Файл содержит только отношения и записи, для которых существует конкретная задача сопровождения пилотной редакции `DPF-EDITION@pilot-2026-09-04.24`.
+Файл содержит только отношения и записи, для которых существует конкретная задача сопровождения пилотной редакции `DPF-EDITION@pilot-2026-09-25.31`.
 
 Идентификатор, строка или соседство записей не создают отношение. Сначала формулируется прямое предметное утверждение; обслуживающая запись представляет его для проверки влияния обновления.
 
 ## 2. Прямая зависимость от FPF
 
-`DPF-EDITION@pilot-2026-09-04.24` использует правила авторинга, видов, отношений, качества и пакетной оценки из FPF Левенчука в опубликованном коммите `56440a9f2e252d7fd462f43470a433dd03413e19` как необходимые ограничения для пилотного DPF-авторинга и проверки.
+`DPF-EDITION@pilot-2026-09-25.31` использует правила авторинга, видов, отношений, качества и пакетной оценки из официального FPF Левенчука в коммите `3dae70bd0ef74188bc5ed0414e6630331457d07b` как необходимые ограничения для пилотного DPF-авторинга и проверки. Прямо используемые расширения `A-LSD` и `B-KGV` закреплены отдельной точной зависимостью от FPF-Extensions `2a3f5724e99d456b14de3445a89cd80f98752b12`.
 
 Без этих правил либо после их содержательно значимого изменения утверждения о соответствии `E.8`, результатах `E.21`, границах предметных видов и пакетной оценке не могут оставаться текущими без повторной проверки. Поэтому пилотная редакция зависит от указанного содержания точной редакции FPF для авторинга и оценки.
 
@@ -17,12 +17,12 @@ FPF Core не зависит от этой редакции. Совместим�
 ## 3. FrameworkEditionDependencyRecord
 
 ```yaml
-FrameworkEditionDependencyRecord@DPF-EDITION-pilot-2026-09-04.24:
+FrameworkEditionDependencyRecord@DPF-EDITION-pilot-2026-09-25.31:
   subjectAssertionRef: DPF-PFR:2
   dependencyPredicateClaimRef: E.4.PFR:3.4-framework-edition-dependency-predicate
   directionConstraintClaimRef: E.5.3-domain-to-Core-direction-and-Core-acyclicity
-  dependentEditionRef: DPF-EDITION@pilot-2026-09-04.24
-  reliedOnEditionRef: FPF@56440a9f2e252d7fd462f43470a433dd03413e19
+  dependentEditionRef: DPF-EDITION@pilot-2026-09-25.31
+  reliedOnEditionRef: FPF@3dae70bd0ef74188bc5ed0414e6630331457d07b
   reliedOnContentRefs:
     - E.4.DPF
     - E.4.PFAD
@@ -42,7 +42,20 @@ FrameworkEditionDependencyRecord@DPF-EDITION-pilot-2026-09-04.24:
   compatibilityClaimRefs: []
 ```
 
-Эта запись зеркалирует прямое утверждение раздела 2. Она не доказывает зависимость, совместимость, выполненную проверку или актуальность сама по себе.
+```yaml
+FrameworkEditionDependencyRecord@DPF-EXTENSIONS-2026-09-25.31:
+  subjectAssertionRef: DPF-PFR:2
+  dependentEditionRef: DPF-EDITION@pilot-2026-09-25.31
+  reliedOnEditionRef: FPF-Extensions@2a3f5724e99d456b14de3445a89cd80f98752b12
+  reliedOnContentRefs: [A-LSD, B-KGV]
+  namedUse: conceptual transfer and knowledge-grounding constraints used by selected patterns
+  dependencyDirection: domain_DPF_to_FPF_Extensions
+  dependencyReason: a material change to the cited extensions reopens the affected pattern and package assessments
+  refreshConditionRefs: [DPF-EDITION:9-FPF-change-trigger]
+  compatibilityClaimRefs: []
+```
+
+Эти записи зеркалируют прямые утверждения раздела 2. Они не доказывают зависимость, совместимость, выполненную проверку или актуальность сами по себе.
 
 ## 4. Прямые отношения пилотных паттернов
 
@@ -52,7 +65,7 @@ FrameworkEditionDependencyRecord@DPF-EDITION-pilot-2026-09-04.24:
 PatternFrameworkRelationRecord@ATB-AL-2026-09-09:
   relationId: ATB-AL-capability-demand-and-learning-evidence-handoff
   sourceRef: Pack-ATB DPF
-  targetRef: DPF-EDITION@pilot-2026-09-04.24
+  targetRef: DPF-EDITION@pilot-2026-09-25.31
   relationFunction: capability-demand-to-learning-and-evidence-return
   governedUse: learning required by an ATB transformation
   dependencyOrEditionEffect: Pack-ATB owns required performers, actions, grounds, context changes and system result; PACK-adult-learning owns learning-gap diagnosis, learning architecture and bounded learning evidence
@@ -84,7 +97,7 @@ PACK-adult-learning проверяет, кому из заданных испо�
 ```yaml
 PatternFrameworkRelationRecord@AL-HCD-2026-09-05:
   relationId: AL-HCD-specialized-adult-learning-handoff
-  sourceRef: DPF-EDITION@pilot-2026-09-04.24
+  sourceRef: DPF-EDITION@pilot-2026-09-25.31
   targetRef: Human Capability Development Principles Framework — Seventeen-pattern first edition, 5 September 2026
   relationFunction: specialized-method-and-evidence-handoff
   governedUse: development of one named adult's capability for representative later Work when an adult-learning mechanism is required
@@ -114,7 +127,7 @@ PatternFrameworkRelationRecord@AL-HCD-2026-09-05:
 ```yaml
 PatternFrameworkRelationRecord@AL-RMP-2026-09-07:
   relationId: AL-RMP-learning-and-research-handoff
-  sourceRef: DPF-EDITION@pilot-2026-09-04.24
+  sourceRef: DPF-EDITION@pilot-2026-09-25.31
   targetRef: Research Method Practice Principles Framework — RMP.1–RMP.4 preview, 6 September 2026
   relationFunction: learning-context-and-research-result-handoff
   governedUse: adult or collective learning work that may also produce a bounded new episteme
@@ -145,7 +158,7 @@ Pack, исследовательский метод — у RMP.
 ```yaml
 PatternFrameworkRelationRecord@AL-ADM-2026-09-11:
   relationId: AL-ADM-learning-and-administrative-service-boundary
-  sourceRef: DPF-EDITION@pilot-2026-09-04.24
+  sourceRef: DPF-EDITION@pilot-2026-09-25.31
   targetRef: Organization Administration Principles Framework
   relationFunction: learning-work-and-administrative-service-handoff
   governedUse: access, consent, appointment, permission and notification required by learning work
@@ -167,7 +180,7 @@ PACK-adult-learning владеет образовательным результ
 от ADM пригодный административный результат либо точную причину отказа и затем
 повторно проверяет доступность учебной архитектуры.
 
-`AL.P.001`, `AL.P.002`, `AL.P.003`, `AL.P.004`, `AL.P.005`, `AL.P.006`, `AL.P.007`, `AL.P.008`, `AL.P.009`, `AL.P.010`, `AL.P.011`, `AL.P.012`, `AL.P.013`, `AL.P.014`, `AL.P.015`, `AL.P.016`, `AL.P.017`, `AL.P.018`, `AL.P.019`, `AL.P.020`, `AL.P.021`, `AL.P.022`, `AL.P.023` и `AL.P.024` являются самостоятельными паттернами одного пилотного выбранного набора. Общий обязательный порядок не установлен, кроме явного перехода от `AL.P.018` к `AL.P.009` при положительном или условном допуске, условного маршрута `AL.P.012 → Pack-TOC → AL.P.017` при необходимости пересмотра основания и последующего перехода к `AL.P.020`, когда обычная среда допускает рабочие пробы, либо к `AL.P.019`, когда требуется временная защищённая система.
+`AL.P.001–024` и `AL.P.028–034` являются самостоятельными паттернами одного пилотного выбранного набора из 31 паттерна. Общий обязательный порядок не установлен, кроме явного перехода от `AL.P.018` к `AL.P.009` при положительном или условном допуске, условного маршрута `AL.P.012 → Pack-TOC → AL.P.017` при необходимости пересмотра основания и последующего перехода к `AL.P.020`, когда обычная среда допускает рабочие пробы, либо к `AL.P.019`, когда требуется временная защищённая система. `AL.P.028` маршрутизирует обоснованный образовательный запрос к `AL.P.029–034`; этот выбор не заменяет проверку запроса и системной границы.
 
 `AL.P.002` рекомендует обратиться к `AL.P.001` только когда после помощи заявлено научение, устойчивость или перенос, для которых нужна отдельная проверка. Эта рекомендация не утверждает, что помощь была оказана, научение состоялось или применение второго паттерна обязательно.
 
@@ -219,6 +232,8 @@ PACK-adult-learning владеет образовательным результ
 
 `DPF-EDITION@pilot-2026-08-18`, `DPF-EDITION@pilot-2026-08-18.2`, `DPF-EDITION@pilot-2026-08-19`, `DPF-EDITION@pilot-2026-08-19.2`, `DPF-EDITION@pilot-2026-08-19.3`, `DPF-EDITION@pilot-2026-08-19.4`, `DPF-EDITION@pilot-2026-08-19.5`, `DPF-EDITION@pilot-2026-08-19.6`, `DPF-EDITION@pilot-2026-08-19.7`, `DPF-EDITION@pilot-2026-08-19.8`, `DPF-EDITION@pilot-2026-08-20.9`, `DPF-EDITION@pilot-2026-08-23.10`, `DPF-EDITION@pilot-2026-08-23.11`, `DPF-EDITION@pilot-2026-08-23.12`, `DPF-EDITION@pilot-2026-08-23.13`, `DPF-EDITION@pilot-2026-08-23.14`, `DPF-EDITION@pilot-2026-08-23.15`, `DPF-EDITION@pilot-2026-08-24.16`, `DPF-EDITION@pilot-2026-08-27.17`, `DPF-EDITION@pilot-2026-08-29.18`, `DPF-EDITION@pilot-2026-08-31.19`, `DPF-EDITION@pilot-2026-08-31.20`, `DPF-EDITION@pilot-2026-09-04.21`, `DPF-EDITION@pilot-2026-09-04.22`, `DPF-EDITION@pilot-2026-09-04.23` и `DPF-EDITION@pilot-2026-09-04.24` являются разными точными эпистемами. В редакциях до `.6` последовательно добавлялись `AL.P.003–009`; `.7` интегрировала `AL.SOTA.017`, `.8` — `AL.SOTA.018`, `.9` добавила `AL.P.010`, `.10` — `AL.P.011`, `.11` — `AL.P.012`, `.12` — `AL.P.013`, `.13` — `AL.P.014`, `.14` — `AL.P.015`, `.15` — `AL.P.016`, `.16` — `AL.P.017`, `.17` — `AL.P.018`, `.18` расширяет `AL.SOTA.024`, переносит его уникальные ограничения в действующие паттерны и фиксирует отклонение дублирующего кандидата `AL.P.019`; `.19` повторно использует освобождённый идентификатор для иной сущности `AL.P.019 «Полевые школы»` и расширяет выбранный набор до девятнадцати паттернов; `.20` добавляет `AL.P.020 «Исследование действием с опорной моделью новой практики»` и расширяет набор до двадцати паттернов; `.21` добавляет `AL.P.021 «Совместное исследование практики»` и расширяет набор до двадцати одного паттерна; `.22` добавляет `AL.P.022 «Рефлексивное участие ради социального изменения»` и расширяет набор до двадцати двух паттернов; `.23` добавляет `AL.P.023 «Коллективное прояснение скрытых условий и отношений власти»` и расширяет набор до двадцати трёх паттернов; `.24` добавляет `AL.P.024 «Интеграция личной и социальной идеологии»` и расширяет набор до двадцати четырёх паттернов. Положительное `EpistemeEditionRelation` между редакциями пока не заявляется без отдельного основания исторической непрерывности.
 
+`DPF-EDITION@pilot-2026-09-25.31` является новой точной эпистемой: она выбирает `AL.P.001–024` и `AL.P.028–034`, закрепляет официальный FPF `3dae70b` и FPF-Extensions `2a3f572`, а пакетную оценку переводит на порог 4 со статусом `refreshNeeded`. Номера `.25–.30` не заявлялись как редакции и не восстанавливаются задним числом.
+
 Git-история сохраняет происхождение файлов, но сама по себе не доказывает тождество эпистем, продолжение редакции, совместимость или замещение. Эти отношения могут быть заявлены позже только при наличии отдельной задачи и достаточного основания.
 
 ## 6. Публикация и доступ
@@ -237,16 +252,17 @@ Git-история сохраняет происхождение файлов, �
 ## 7. FrameworkPackageManifest
 
 ```yaml
-FrameworkPackageManifest@DPF-EDITION-pilot-2026-09-04.24:
-  frameworkEditionRef: DPF-EDITION@pilot-2026-09-04.24
+FrameworkPackageManifest@DPF-EDITION-pilot-2026-09-25.31:
+  frameworkEditionRef: DPF-EDITION@pilot-2026-09-25.31
   selectedPatternSetResultRef: DPF-EDITION:3
   relationRecordRefs:
     - PatternFrameworkRelationRecord@AL-HCD-2026-09-05
     - PatternFrameworkRelationRecord@AL-RMP-2026-09-07
     - PatternFrameworkRelationRecord@AL-ADM-2026-09-11
   dependencyAndEditionRecordRefs:
-    - FrameworkEditionDependencyRecord@DPF-EDITION-pilot-2026-09-04.24
-  editionStatus: admissibleForDeclaredDPFUse
+    - FrameworkEditionDependencyRecord@DPF-EDITION-pilot-2026-09-25.31
+    - FrameworkEditionDependencyRecord@DPF-EXTENSIONS-2026-09-25.31
+  editionStatus: refreshNeeded
   deprecationOrSupersessionRefs: []
   sourcePackRefs:
     - 06-sota/source-register.md
@@ -284,6 +300,8 @@ FrameworkPackageManifest@DPF-EDITION-pilot-2026-09-04.24:
 
 Манифест индексирует обслуживаемые ссылки для проверки редакции. Он не является редакцией, выбранным набором, публикацией или доказательством содержащихся утверждений.
 
+Обнаруженный рассинхрон: существующий `PatternFrameworkRelationRecord@ATB-AL-2026-09-09` пока не перечислен в `relationRecordRefs`. Запись остаётся действующей в разделе 4, но полнота пакетного индекса не заявляется до отдельного решения пилота о правке.
+
 ## 8. Проверка текущести FPF и HCD от 2026-09-06
 
 Проверены FPF `56440a9f2e252d7fd462f43470a433dd03413e19` и HCD «Seventeen-pattern first edition, 5 September 2026» относительно точной редакции `DPF-EDITION@pilot-2026-09-04.24`. Правила `E.4.DPF`, `E.4.PFAD`, `E.4.PFR` и `E.4.DPF.DA` сохраняют архитектуру Pack только после явного вычитания общего индивидуального контура HCD. Самостоятельный остаток Pack — специализированные методы обучения взрослых и коллективное научение внутри трансформации. Совместное размещение в Engineering DPF Suite само по себе зависимости не создаёт; материальный HCD-контракт заявлен отдельной записью выше.
@@ -310,6 +328,14 @@ FPF вообще не заявляется: проверен только наз
 Точная зависимость Pack, `reliedOnEditionRef` и манифест переведены на
 `56440a9` одним согласованным изменением. Сторонние незавершённые изменения
 журнала, SOTA, карты и кандидата `AL.P.026` в эту фиксацию не входят.
+
+## 8.1. Проверка текущести для редакции `.31` от 2026-09-25
+
+Проверка GitHub 25 сентября 2026 года установила официальный FPF `3dae70bd0ef74188bc5ed0414e6630331457d07b`. Локальная ветка FPF разошлась с официальной: содержит семь собственных коммитов и отстаёт от `origin/main` на один. Редакция `.31` поэтому закрепляет официальный коммит напрямую и не утверждает, что локальная ветка синхронизирована или что её собственные изменения входят в основание Pack. Несмотря на заголовок коммита о распознаваемости названий, официальный diff изменяет также `E.4` и `E.8`; текст `E.21` не изменился. Поэтому прежние оценки остаются свидетельствами своих окон, но не переносятся в новое окно автоматически.
+
+FPF-Extensions закреплён точным локальным коммитом `2a3f5724e99d456b14de3445a89cd80f98752b12`; его публикационная доступность отдельно не заявляется. Зависимость нужна только для прямо используемых `A-LSD` и `B-KGV` и не превращает весь репозиторий расширений в нормативную часть Pack.
+
+Выбранный набор расширен до 31 паттерна. Семь новых паттернов достигали 4 по `E.21` в предыдущем окне; остальные двадцать четыре имеют более старые оценки. Изменившаяся авторинговая и пакетная рамка требует impact refresh всего набора. Поэтому `DPF-EDITION@pilot-2026-09-25.31`, манифест, README и карта согласованы на статусе `refreshNeeded` при пороге 4. Первый ремонт и повторная пакетная оценка записаны в `DPF-EDITION.md` §8.
 
 ## 9. Условный маршрут DOCA → HCD → PACK-adult-learning
 

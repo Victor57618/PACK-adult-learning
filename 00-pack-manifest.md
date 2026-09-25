@@ -5,17 +5,18 @@ pack_id: AL
 pack_name: Проектирование обучения взрослых и программ ДПО
 pack_name_en: Adult Learning and Continuing Professional Education Design
 version: 0.1.0
-fpf_edition: 56440a9f2e252d7fd462f43470a433dd03413e19
-fpf_edition_date: 2026-09-05
+fpf_edition: 3dae70bd0ef74188bc5ed0414e6630331457d07b
+fpf_edition_date: 2026-09-25
+fpf_extensions_edition: 2a3f5724e99d456b14de3445a89cd80f98752b12
 architecture_decision: DPF-DRR.md
-pilot_edition_ref: DPF-EDITION@pilot-2026-09-04.24
+pilot_edition_ref: DPF-EDITION@pilot-2026-09-25.31
 pilot_edition_record: DPF-EDITION.md
 relation_maintenance_record: DPF-PFR.md
-pilot_selected_patterns: [AL.P.001, AL.P.002, AL.P.003, AL.P.004, AL.P.005, AL.P.006, AL.P.007, AL.P.008, AL.P.009, AL.P.010, AL.P.011, AL.P.012, AL.P.013, AL.P.014, AL.P.015, AL.P.016, AL.P.017, AL.P.018, AL.P.019, AL.P.020, AL.P.021, AL.P.022, AL.P.023, AL.P.024]
+pilot_selected_patterns: [AL.P.001, AL.P.002, AL.P.003, AL.P.004, AL.P.005, AL.P.006, AL.P.007, AL.P.008, AL.P.009, AL.P.010, AL.P.011, AL.P.012, AL.P.013, AL.P.014, AL.P.015, AL.P.016, AL.P.017, AL.P.018, AL.P.019, AL.P.020, AL.P.021, AL.P.022, AL.P.023, AL.P.024, AL.P.028, AL.P.029, AL.P.030, AL.P.031, AL.P.032, AL.P.033, AL.P.034]
 public_name: not_selected
 publication_occurrence: not_asserted
-pilot_evaluation_status: admissibleForDeclaredDPFUse
-pilot_evaluation_floor: 3
+pilot_evaluation_status: refreshNeeded
+pilot_evaluation_floor: 4
 spf_template_checked: 2026-07-28
 status: draft
 created: 2026-07-28
@@ -73,7 +74,7 @@ Pack отвечает на вопросы:
 ## Content summary
 | Section | Count | Status |
 |---|---:|---|
-| Patterns | 33 | 24 selected; 7 post-edition pilot; 2 candidate/bounded |
+| Patterns | 33 | 31 selected; 2 candidate/bounded |
 | Distinctions | 14 | draft |
 | Roles | 7 | draft |
 | Objects of attention | 10 | draft |
@@ -115,9 +116,9 @@ Pack отвечает на вопросы:
 5. апробация рабочих продуктов минимум в двух программах;
 6. фиксация метрик до/после и revision criteria по каждой SoTA-аннотации.
 ## Change log
-
 | Date | Change | Author |
 |---|---|---|
+| 2026-09-25 | Issued exact pilot edition `.31`: selected AL.P.001–024 and AL.P.028–034; pinned official FPF `3dae70b` and FPF-Extensions `2a3f572`; package status is `refreshNeeded` at floor 4 until all 31 patterns and the whole-package representative use are refreshed under the current rules | Codex |
 | 2026-09-25 | Corrected premature completion claim for STH.DEV.CLAIM.045–060: added claim-by-claim traceability, completed 051/053/055/057/058 in AL.P.028, AL.P.033 and AL.P.034 with a route to existing AL.P.022, and passed 10 targeted synthetic boundary probes; selected set remains unchanged pending reassessment | Codex |
 | 2026-09-25 | Integrated accepted AL.P.028–034 as a routed family of competency-based, activity-based, problem-based, contextual, personal and cultural approaches; added reader and domain-map navigation plus two rounds of ten internal boundary probes; retained the exact 24-pattern selected edition pending E.21 and package reassessment | Codex |
 | 2026-09-24 | Integrated accepted STH.DEV.CLAIM.045–060 from Teslinov seminar slides into the approach-pattern family; source claims, Pack synthesis and bounded status remain separated | Codex |
