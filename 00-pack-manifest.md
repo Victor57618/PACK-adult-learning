@@ -19,7 +19,7 @@ pilot_evaluation_floor: 3
 spf_template_checked: 2026-07-28
 status: draft
 created: 2026-07-28
-last_updated: 2026-09-13
+last_updated: 2026-09-25
 maintainers:
   - name: Workspace owner
     contact: local
@@ -73,6 +73,7 @@ Pack отвечает на вопросы:
 ## Content summary
 | Section | Count | Status |
 |---|---:|---|
+| Patterns | 33 | 24 selected; 7 post-edition pilot; 2 candidate/bounded |
 | Distinctions | 14 | draft |
 | Roles | 7 | draft |
 | Objects of attention | 10 | draft |
@@ -117,6 +118,8 @@ Pack отвечает на вопросы:
 
 | Date | Change | Author |
 |---|---|---|
+| 2026-09-25 | Integrated accepted AL.P.028–034 as a routed family of competency-based, activity-based, problem-based, contextual, personal and cultural approaches; added reader and domain-map navigation plus two rounds of ten internal boundary probes; retained the exact 24-pattern selected edition pending E.21 and package reassessment | Codex |
+| 2026-09-24 | Integrated accepted STH.DEV.CLAIM.045–060 from Teslinov seminar slides into the approach-pattern family; source claims, Pack synthesis and bounded status remain separated | Codex |
 | 2026-09-13 | Clarified exploratory vs alternative-mastery phases in AL.P.017, AL.M.009 and AL.WP.009; repeated all 10 synthetic boundary probes with explicit resolution, retaining AL.P.020 prerequisites, consent, authority and risk controls; no maturity increase | Codex |
 | 2026-09-13 | Recorded 10 internal synthetic boundary probes for AL.SOTA.030: 9 explicitly resolved, 1 early-entry ambiguity in AL.P.017 reported for owner decision; no entity fix or maturity increase | Codex |
 | 2026-09-13 | Integrated accepted STH.KGL.CLAIM.001–027 into AL.P.017, AL.P.020, AL.P.022, AL.M.009 and AL.WP.009; added AL.SOTA.030 annotation and RP traceability; existing roles and products sufficient, no maturity increase, corpus reading remains open | Codex |
