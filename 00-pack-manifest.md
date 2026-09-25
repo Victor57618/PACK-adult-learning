@@ -74,7 +74,7 @@ Pack отвечает на вопросы:
 ## Content summary
 | Section | Count | Status |
 |---|---:|---|
-| Patterns | 33 | 31 selected; 2 candidate/bounded |
+| Patterns | 34 | 31 selected in `.31`; 1 post-edition pilot; 2 candidate/bounded |
 | Distinctions | 14 | draft |
 | Roles | 7 | draft |
 | Objects of attention | 10 | draft |
@@ -118,6 +118,7 @@ Pack отвечает на вопросы:
 ## Change log
 | Date | Change | Author |
 |---|---|---|
+| 2026-09-25 | Added post-edition `AL.P.035` for internship in an already working alternative environment; moved the educational substance and contrastive belief-test mode from historical `ATB.P.009–010`, routed individual return through `AL.P.007`, and left organizational receiving-context responsibility with Pack-ATB/OCE; `.31` selected set and maturity are unchanged | Codex |
 | 2026-09-25 | Issued exact pilot edition `.31`: selected AL.P.001–024 and AL.P.028–034; pinned official FPF `3dae70b` and FPF-Extensions `2a3f572`; package status is `refreshNeeded` at floor 4 until all 31 patterns and the whole-package representative use are refreshed under the current rules | Codex |
 | 2026-09-25 | Corrected premature completion claim for STH.DEV.CLAIM.045–060: added claim-by-claim traceability, completed 051/053/055/057/058 in AL.P.028, AL.P.033 and AL.P.034 with a route to existing AL.P.022, and passed 10 targeted synthetic boundary probes; selected set remains unchanged pending reassessment | Codex |
 | 2026-09-25 | Integrated accepted AL.P.028–034 as a routed family of competency-based, activity-based, problem-based, contextual, personal and cultural approaches; added reader and domain-map navigation plus two rounds of ten internal boundary probes; retained the exact 24-pattern selected edition pending E.21 and package reassessment | Codex |
