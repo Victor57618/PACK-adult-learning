@@ -156,7 +156,7 @@ flowchart LR
 
 ## Update log
 
-**Редакция `.31`, 2026-09-25:** `AL.P.028–034` включены вместе с `AL.P.001–024` в выбранный набор из 31 паттерна. Семь новых паттернов прошли две серии по десять внутренних пограничных проб и оценку `E.21` на уровне 4 в предыдущем окне. Официальный FPF `3dae70b` сохранил `E.21`, но изменил связанные правила `E.4` и `E.8`; поэтому пакет имеет статус `refreshNeeded` до impact refresh всех 31 паттернов и представительского совместного применения набора.
+**Редакция `.31`, 2026-09-25:** `AL.P.028–034` включены вместе с `AL.P.001–024` в выбранный набор из 31 паттерна. Impact refresh по официальному FPF `3dae70b` завершён для всего выбранного набора: `AL.P.001–017` и `AL.P.028–034` достигают 4 для заявленного использования, а `AL.P.018–024` остаются на локальном пороге 3 из-за ограниченного прямого корпуса и отсутствия независимых применений. Поэтому пакет сохраняет статус `refreshNeeded` до представительского совместного применения набора и повторной пакетной оценки.
 
 **Исправление трассировки `STH.DEV.CLAIM.045–060`, 2026-09-25:** устранена преждевременная запись о полной интеграции. Все шестнадцать утверждений получили отдельные связи с решениями паттернов; `051`, `053`, `055`, `057` и `058` усилены содержательно. Десять целевых пограничных проб пройдены; точная редакция `.24` не расширена и пакетная оценка не повышена.
 
@@ -254,6 +254,8 @@ flowchart LR
 
 | Date | Change |
 |---|---|
+| 2026-09-25 | Repaired positive SoTA comparison in 27 patterns, restored six canonical end markers and AL.P.027:5 title, and repeated full E.21 for AL.P.001–024; AL.P.001–017 reach 4, AL.P.018–024 remain at local threshold 3, maturity unchanged |
+| 2026-09-25 | Audited all 34 active or candidate pattern bodies against official FPF 3dae70b: AL.P.028–034 pass targeted impact refresh; 24 selected patterns need positive E.8:11 SoTA comparison and full E.21; AL.P.026–027 remain candidate/bounded; AL.P.013–017 and AL.P.035 also need `:End`, and AL.P.027:5 needs its canonical title; maturity unchanged |
 | 2026-09-25 | Added post-edition AL.P.035 as the owner of internship in an already working alternative environment; separated it from AL.P.019, AL.P.020 and AL.P.007, and recorded the Pack-ATB/OCE handoff without changing the `.31` selected set or maturity |
 | 2026-09-12 | Completed post-integration ODI review with 10 new synthetic boundary cases; all resolved by explicit rules; no entity correction or evidence upgrade; full reasoning in SOTA RP section 26 |
 | 2026-09-12 | Integrated ODI claims 035–043 into existing pattern, methods and work products; source meaning and Pack synthesis remain separate; post-integration boundary tests pending |
