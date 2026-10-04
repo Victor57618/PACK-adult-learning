@@ -20,7 +20,7 @@ pilot_evaluation_floor: 4
 spf_template_checked: 2026-07-28
 status: draft
 created: 2026-07-28
-last_updated: 2026-09-25
+last_updated: 2026-10-04
 maintainers:
   - name: Workspace owner
     contact: local
@@ -74,7 +74,7 @@ Pack отвечает на вопросы:
 ## Content summary
 | Section | Count | Status |
 |---|---:|---|
-| Patterns | 34 | 31 selected in `.31`; 1 post-edition pilot; 2 candidate/bounded |
+| Patterns | 34 | 31 selected in `.31`; 1 post-edition `pilot`; 2 со состоянием разработки `candidate` и доказательной границей `bounded` |
 | Distinctions | 14 | draft |
 | Roles | 7 | draft |
 | Objects of attention | 10 | draft |
@@ -118,6 +118,7 @@ Pack отвечает на вопросы:
 ## Change log
 | Date | Change | Author |
 |---|---|---|
+| 2026-10-04 | Separated pattern development state, E.21 admissibility and evidence boundary for AL.P.033–034; retained `pilot` development state and `admissibleForDeclaredUse`, removed `bounded` from the light version of AL.P.034, and kept it only for stronger claims about reliable intentional value change or durable value consolidation; selected set and E.21 values unchanged | Codex |
 | 2026-09-25 | Repaired positive E.8:11 SoTA comparisons in 27 patterns; restored canonical `:End` in AL.P.013–017 and AL.P.035 and the canonical section-5 title in AL.P.027; repeated all 19 E.21 coordinates for AL.P.001–024. AL.P.001–017 reach 4 for declared use; AL.P.018–024 honestly remain at local threshold 3; package remains `refreshNeeded` without a maturity increase | Codex |
 | 2026-09-25 | Completed pattern-by-pattern impact audit of 34 active or candidate bodies against official FPF `3dae70b`: retained current values 4 for AL.P.028–034; reopened 24 selected patterns for positive E.8:11 SoTA comparison and full E.21; kept AL.P.026–027 candidate/bounded; found missing `:End` in AL.P.013–017 and post-edition AL.P.035 plus a noncanonical `AL.P.027:5` title; no maturity increase and package remains refreshNeeded | Codex |
 | 2026-09-25 | Added post-edition `AL.P.035` for internship in an already working alternative environment; moved the educational substance and contrastive belief-test mode from historical `ATB.P.009–010`, routed individual return through `AL.P.007`, and left organizational receiving-context responsibility with Pack-ATB/OCE; `.31` selected set and maturity are unchanged | Codex |
