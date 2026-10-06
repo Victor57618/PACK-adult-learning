@@ -257,6 +257,7 @@ flowchart LR
 
 | Date | Change |
 |---|---|
+| 2026-10-06 | Corrected the stale AL.P.034 SoTA-comparison reference from steps 1–12 to the complete current solution, steps 1–14; no content, status, selected-set or maturity change |
 | 2026-10-06 | Integrated the full Makarenko principle of the non-isolated means and non-permanent system into AL.SOTA.031, the source register, AL.P.028, AL.P.030 and AL.P.034: evaluate each means inside its configuration and rebuild the configuration when participants, collective maturity, activity or environment change; context does not override adult-learning safety boundaries; entity set, selected edition and maturity unchanged |
 | 2026-10-06 | Registered the transferred Makarenko corpus as SRC.031 and AL.SOTA.031, made the Pack file canonical, redirected AL.P.017/030/034 traceability, and left a routing pointer in DS-strategy; entity set, selected edition and maturity unchanged |
 | 2026-10-06 | Integrated the bounded Makarenko contribution from DS-strategy WP-75 into AL.P.017, AL.P.030 and AL.P.034: real work is not sufficient without relations, role, mandate, consequences and review; a temporary responsible role is an optional adult-learning probe, not mandatory rotation; Pack-ATB/OCE boundaries, selected set and maturity remain unchanged |
