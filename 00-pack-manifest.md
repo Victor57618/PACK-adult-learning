@@ -82,7 +82,7 @@ Pack отвечает на вопросы:
 | Work products | 10 | draft |
 | Failure modes | 10 | draft |
 | Characteristics | 8 | draft |
-| SoTA annotations/source groups | 30 | draft |
+| SoTA annotations/source groups | 31 | draft |
 | Maps | 1 | draft |
 ## Entity index
 | ID | Name | Kind | Summary | Status |
@@ -118,6 +118,7 @@ Pack отвечает на вопросы:
 ## Change log
 | Date | Change | Author |
 |---|---|---|
+| 2026-10-06 | Moved the full Makarenko SOTA corpus from DS-strategy WP-75 into Pack-AL as `SRC.031` and `AL.SOTA.031`; retained only a routing pointer in DS-strategy, redirected pattern traceability to the local canonical artifact, and preserved the prior integration decision and maturity | Codex |
 | 2026-10-06 | Integrated the bounded Makarenko contribution from DS-strategy WP-75 into AL.P.017, AL.P.030 and AL.P.034: distinguished real work from learning, made relations and a real mandate explicit, and admitted temporary responsible roles only as optional adult-learning probes; no mandatory rotation, new entity, selected-set change or maturity increase | Codex |
 | 2026-10-04 | Separated pattern development state, E.21 admissibility and evidence boundary for AL.P.033–034; retained `pilot` development state and `admissibleForDeclaredUse`, removed `bounded` from the light version of AL.P.034, and kept it only for stronger claims about reliable intentional value change or durable value consolidation; selected set and E.21 values unchanged | Codex |
 | 2026-09-25 | Repaired positive E.8:11 SoTA comparisons in 27 patterns; restored canonical `:End` in AL.P.013–017 and AL.P.035 and the canonical section-5 title in AL.P.027; repeated all 19 E.21 coordinates for AL.P.001–024. AL.P.001–017 reach 4 for declared use; AL.P.018–024 honestly remain at local threshold 3; package remains `refreshNeeded` without a maturity increase | Codex |
